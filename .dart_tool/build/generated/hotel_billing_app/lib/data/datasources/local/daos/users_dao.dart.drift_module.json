@@ -1,0 +1,52 @@
+{
+  "elements": {
+    "UsersDao": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/daos/users_dao.dart",
+        "name": "UsersDao"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/daos/users_dao.dart",
+        "offset": 168,
+        "name": "UsersDao"
+      },
+      "references": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/users_table.dart",
+          "name": "users"
+        }
+      ],
+      "type": "dao",
+      "tables": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/users_table.dart",
+          "name": "users"
+        }
+      ],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "dart_type": {
+        "elements": [
+          {
+            "lexeme": "UsersDao",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/daos/users_dao.dart"
+          }
+        ]
+      },
+      "database": {
+        "elements": [
+          {
+            "lexeme": "AppDatabase",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/app_database.dart"
+          }
+        ]
+      }
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/users_table.dart"
+  ]
+}

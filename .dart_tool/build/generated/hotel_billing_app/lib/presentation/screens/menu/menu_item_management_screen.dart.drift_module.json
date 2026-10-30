@@ -1,0 +1,13 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/core/utils/currency_formatter.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart",
+    "package:hotel_billing_app/presentation/providers/menu_provider.dart"
+  ]
+}

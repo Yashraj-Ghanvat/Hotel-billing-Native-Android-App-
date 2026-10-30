@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/utils/password_hasher.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/users_dao.dart",
+    "package:hotel_billing_app/domain/models/user_session.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart"
+  ]
+}

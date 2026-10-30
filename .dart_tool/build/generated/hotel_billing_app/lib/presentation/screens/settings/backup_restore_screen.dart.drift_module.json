@@ -1,0 +1,12 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:file_picker/file_picker.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/services/backup_restore_service.dart",
+    "package:hotel_billing_app/services/permission_service.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart"
+  ]
+}

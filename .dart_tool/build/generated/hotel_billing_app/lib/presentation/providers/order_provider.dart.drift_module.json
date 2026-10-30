@@ -1,0 +1,11 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/orders_dao.dart",
+    "package:hotel_billing_app/domain/models/kot_ticket.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart",
+    "package:hotel_billing_app/presentation/providers/auth_provider.dart"
+  ]
+}

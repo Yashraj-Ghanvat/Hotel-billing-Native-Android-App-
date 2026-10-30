@@ -1,0 +1,6 @@
+{
+  "elements": {},
+  "imports": [
+    "package:hotel_billing_app/core/constants/app_constants.dart"
+  ]
+}

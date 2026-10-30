@@ -1,0 +1,19 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/core/utils/responsive.dart",
+    "package:hotel_billing_app/presentation/providers/auth_provider.dart",
+    "package:hotel_billing_app/presentation/screens/tokens/token_pos_screen.dart",
+    "package:hotel_billing_app/presentation/screens/tables/table_grid_screen.dart",
+    "package:hotel_billing_app/presentation/screens/menu/menu_item_management_screen.dart",
+    "package:hotel_billing_app/presentation/screens/menu/category_management_screen.dart",
+    "package:hotel_billing_app/presentation/screens/reports/sales_reports_screen.dart",
+    "package:hotel_billing_app/presentation/screens/settings/store_settings_screen.dart",
+    "package:hotel_billing_app/presentation/screens/settings/printer_settings_screen.dart",
+    "package:hotel_billing_app/presentation/screens/settings/user_management_screen.dart",
+    "package:hotel_billing_app/presentation/screens/settings/backup_restore_screen.dart"
+  ]
+}

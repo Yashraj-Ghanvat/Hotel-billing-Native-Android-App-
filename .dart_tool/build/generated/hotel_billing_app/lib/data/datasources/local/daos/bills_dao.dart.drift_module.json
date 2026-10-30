@@ -1,0 +1,62 @@
+{
+  "elements": {
+    "BillsDao": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/daos/bills_dao.dart",
+        "name": "BillsDao"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/daos/bills_dao.dart",
+        "offset": 277,
+        "name": "BillsDao"
+      },
+      "references": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+          "name": "bills"
+        },
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/orders_table.dart",
+          "name": "orders"
+        }
+      ],
+      "type": "dao",
+      "tables": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+          "name": "bills"
+        },
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/orders_table.dart",
+          "name": "orders"
+        }
+      ],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "dart_type": {
+        "elements": [
+          {
+            "lexeme": "BillsDao",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/daos/bills_dao.dart"
+          }
+        ]
+      },
+      "database": {
+        "elements": [
+          {
+            "lexeme": "AppDatabase",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/app_database.dart"
+          }
+        ]
+      }
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/orders_table.dart",
+    "package:hotel_billing_app/core/utils/invoice_number_generator.dart"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/presentation/providers/auth_provider.dart",
+    "package:hotel_billing_app/presentation/widgets/common/numeric_keypad.dart"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart"
+  ]
+}

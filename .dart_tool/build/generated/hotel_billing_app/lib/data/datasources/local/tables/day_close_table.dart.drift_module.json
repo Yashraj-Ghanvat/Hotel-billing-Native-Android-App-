@@ -1,0 +1,236 @@
+{
+  "elements": {
+    "day_close": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+        "name": "day_close"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+        "offset": 42,
+        "name": "DayClose"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 83,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": false,
+          "nameInSql": "date",
+          "nameInDart": "date",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 139,
+            "name": "date"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "opening_cash",
+          "nameInDart": "openingCash",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 178,
+            "name": "openingCash"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "closing_cash",
+          "nameInDart": "closingCash",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 220,
+            "name": "closingCash"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "total_sales",
+          "nameInDart": "totalSales",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 262,
+            "name": "totalSales"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "total_orders",
+          "nameInDart": "totalOrders",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 302,
+            "name": "totalOrders"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "discrepancy",
+          "nameInDart": "discrepancy",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 347,
+            "name": "discrepancy"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "closed_by_user_id",
+          "nameInDart": "closedByUserId",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 389,
+            "name": "closedByUserId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": false,
+          "nameInSql": "created_at",
+          "nameInDart": "createdAt",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/day_close_table.dart",
+            "offset": 449,
+            "name": "createdAt"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              {
+                "lexeme": "currentDateAndTime",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              }
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "DayClose",
+      "row_class_name": "DayCloseData",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart"
+  ]
+}

@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:drift/drift.dart","transitive":false},{"uri":"package:hotel_billing_app/data/datasources/local/app_database.dart","transitive":false},{"uri":"package:hotel_billing_app/data/datasources/local/tables/users_table.dart","transitive":false}],"elements":[{"kind":"databaseAccessor","name":"UsersDao","dart_name":"UsersDao"}]}

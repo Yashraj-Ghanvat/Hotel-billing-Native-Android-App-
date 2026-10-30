@@ -1,0 +1,443 @@
+{
+  "elements": {
+    "bills": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+        "name": "bills"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+        "offset": 97,
+        "name": "Bills"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 135,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "order_id",
+          "nameInDart": "orderId",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 186,
+            "name": "orderId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "bill_no",
+          "nameInDart": "billNo",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 251,
+            "name": "billNo"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "unique"
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "subtotal",
+          "nameInDart": "subtotal",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 297,
+            "name": "subtotal"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "discount",
+          "nameInDart": "discount",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 336,
+            "name": "discount"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "discount_type",
+          "nameInDart": "discountType",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 408,
+            "name": "discountType"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "('flat')"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "tax_amount",
+          "nameInDart": "taxAmount",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 487,
+            "name": "taxAmount"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "cgst_amount",
+          "nameInDart": "cgstAmount",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 527,
+            "name": "cgstAmount"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "sgst_amount",
+          "nameInDart": "sgstAmount",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 601,
+            "name": "sgstAmount"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "round_off",
+          "nameInDart": "roundOff",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 675,
+            "name": "roundOff"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "total",
+          "nameInDart": "total",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 747,
+            "name": "total"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "payment_mode",
+          "nameInDart": "paymentMode",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 783,
+            "name": "paymentMode"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "bool"
+          },
+          "nullable": false,
+          "nameInSql": "is_void",
+          "nameInDart": "isVoid",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 859,
+            "name": "isVoid"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(false)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "void_reason",
+          "nameInDart": "voidReason",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 934,
+            "name": "voidReason"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": true,
+          "nameInSql": "void_by_user_id",
+          "nameInDart": "voidByUserId",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 985,
+            "name": "voidByUserId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": false,
+          "nameInSql": "created_at",
+          "nameInDart": "createdAt",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/bills_table.dart",
+            "offset": 1069,
+            "name": "createdAt"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              {
+                "lexeme": "currentDateAndTime",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              }
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "Bills",
+      "row_class_name": "Bill",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/orders_table.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/users_table.dart"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter/services.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/theme/app_theme.dart",
+    "package:hotel_billing_app/presentation/providers/auth_provider.dart",
+    "package:hotel_billing_app/presentation/screens/auth/pin_login_screen.dart",
+    "package:hotel_billing_app/presentation/screens/home/main_navigation_screen.dart"
+  ]
+}

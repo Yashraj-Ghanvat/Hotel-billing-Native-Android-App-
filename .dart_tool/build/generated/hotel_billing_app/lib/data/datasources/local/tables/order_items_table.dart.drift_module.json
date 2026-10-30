@@ -1,0 +1,258 @@
+{
+  "elements": {
+    "order_items": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+        "name": "order_items"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+        "offset": 102,
+        "name": "OrderItems"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 145,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "order_id",
+          "nameInDart": "orderId",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 196,
+            "name": "orderId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "item_id",
+          "nameInDart": "itemId",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 289,
+            "name": "itemId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "quantity",
+          "nameInDart": "quantity",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 355,
+            "name": "quantity"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "price_at_order",
+          "nameInDart": "priceAtOrder",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 397,
+            "name": "priceAtOrder"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "double"
+          },
+          "nullable": false,
+          "nameInSql": "tax_rate_at_order",
+          "nameInDart": "taxRateAtOrder",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 440,
+            "name": "taxRateAtOrder"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(5.0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "notes",
+          "nameInDart": "notes",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 518,
+            "name": "notes"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "status",
+          "nameInDart": "status",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 565,
+            "name": "status"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "('pending')"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "kot_printed_quantity",
+          "nameInDart": "kotPrintedQuantity",
+          "declaration": {
+            "source_uri": "package:hotel_billing_app/data/datasources/local/tables/order_items_table.dart",
+            "offset": 688,
+            "name": "kotPrintedQuantity"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": {
+            "elements": [
+              "const ",
+              {
+                "lexeme": "Constant",
+                "import_uri": "package:drift/src/runtime/query_builder/query_builder.dart"
+              },
+              "(0)"
+            ]
+          },
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "OrderItems",
+      "row_class_name": "OrderItem",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/orders_table.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/menu_items_table.dart"
+  ]
+}

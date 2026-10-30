@@ -1,0 +1,14 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:blue_thermal_printer/blue_thermal_printer.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/core/constants/app_constants.dart",
+    "package:hotel_billing_app/services/permission_service.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart",
+    "package:hotel_billing_app/presentation/providers/printer_provider.dart",
+    "package:hotel_billing_app/presentation/providers/settings_provider.dart"
+  ]
+}

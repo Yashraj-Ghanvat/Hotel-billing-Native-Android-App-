@@ -1,0 +1,14 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/core/utils/currency_formatter.dart",
+    "package:hotel_billing_app/core/utils/tax_calculator.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/orders_dao.dart",
+    "package:hotel_billing_app/services/pdf_generator_service.dart",
+    "package:hotel_billing_app/presentation/providers/printer_provider.dart"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "elements": {
+    "TablesDao": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/daos/tables_dao.dart",
+        "name": "TablesDao"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/daos/tables_dao.dart",
+        "offset": 192,
+        "name": "TablesDao"
+      },
+      "references": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/restaurant_tables_table.dart",
+          "name": "restaurant_tables"
+        }
+      ],
+      "type": "dao",
+      "tables": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/restaurant_tables_table.dart",
+          "name": "restaurant_tables"
+        }
+      ],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "dart_type": {
+        "elements": [
+          {
+            "lexeme": "TablesDao",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/daos/tables_dao.dart"
+          }
+        ]
+      },
+      "database": {
+        "elements": [
+          {
+            "lexeme": "AppDatabase",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/app_database.dart"
+          }
+        ]
+      }
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/restaurant_tables_table.dart"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "elements": {
+    "MenuDao": {
+      "id": {
+        "library_uri": "package:hotel_billing_app/data/datasources/local/daos/menu_dao.dart",
+        "name": "MenuDao"
+      },
+      "declaration": {
+        "source_uri": "package:hotel_billing_app/data/datasources/local/daos/menu_dao.dart",
+        "offset": 230,
+        "name": "MenuDao"
+      },
+      "references": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/categories_table.dart",
+          "name": "categories"
+        },
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/menu_items_table.dart",
+          "name": "menu_items"
+        }
+      ],
+      "type": "dao",
+      "tables": [
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/categories_table.dart",
+          "name": "categories"
+        },
+        {
+          "library_uri": "package:hotel_billing_app/data/datasources/local/tables/menu_items_table.dart",
+          "name": "menu_items"
+        }
+      ],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "dart_type": {
+        "elements": [
+          {
+            "lexeme": "MenuDao",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/daos/menu_dao.dart"
+          }
+        ]
+      },
+      "database": {
+        "elements": [
+          {
+            "lexeme": "AppDatabase",
+            "import_uri": "package:hotel_billing_app/data/datasources/local/app_database.dart"
+          }
+        ]
+      }
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/categories_table.dart",
+    "package:hotel_billing_app/data/datasources/local/tables/menu_items_table.dart"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:hotel_billing_app/core/constants/app_colors.dart",
+    "package:hotel_billing_app/core/utils/currency_formatter.dart",
+    "package:hotel_billing_app/core/utils/responsive.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/orders_dao.dart",
+    "package:hotel_billing_app/presentation/providers/database_provider.dart",
+    "package:hotel_billing_app/presentation/providers/order_provider.dart",
+    "package:hotel_billing_app/presentation/screens/orders/order_taking_screen.dart",
+    "package:hotel_billing_app/presentation/screens/tokens/token_display_screen.dart"
+  ]
+}

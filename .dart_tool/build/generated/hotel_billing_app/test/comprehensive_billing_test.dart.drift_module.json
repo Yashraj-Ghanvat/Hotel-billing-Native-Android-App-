@@ -1,0 +1,17 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter_test/flutter_test.dart",
+    "package:drift/drift.dart",
+    "package:drift/native.dart",
+    "package:hotel_billing_app/core/utils/password_hasher.dart",
+    "package:hotel_billing_app/core/utils/invoice_number_generator.dart",
+    "package:hotel_billing_app/core/utils/tax_calculator.dart",
+    "package:hotel_billing_app/data/datasources/local/app_database.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/users_dao.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/menu_dao.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/orders_dao.dart",
+    "package:hotel_billing_app/data/datasources/local/daos/bills_dao.dart",
+    "package:hotel_billing_app/services/backup_restore_service.dart"
+  ]
+}
